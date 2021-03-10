@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>mechanical engineering I test range</title>
+    <style>
+
+      /* ----------------- ページ全体の設定 ----------------- */
+      body {
+
+        background-color : #02173C;        /* 背景色：瑠璃色 */
+        background-image : url( "../../../lib/img/bg/1440_900_20120223032123223025.jpg" );  /* 背景画像 */
+        background-position : top center;  /* 背景画像の位置 */
+        background-repeat : no-repeat;     /* 背景画像のリピート */
+        background-attachment : fixed;     /* スクロール時の背景画像を固定 */
+        background-size : cover;           /* 画面全体に表示 */
+
+        color : #E5B217;                   /* 文字色 金色ラブリッチェ */
+        font-family : "SourceHanCodeJP-Light", sans-serif, monospace, serif;
+        /* text-align : center;               /* 中央揃え */
+      }
+
+      div.htmlWrap {
+
+        /* border : solid 1px red; */
+        background-color : rgba( 02, 17, 60, 0.5 );
+        margin : auto;
+        width : 77%;
+        padding : 1em;
+        /*text-align: center;*/
+      }
+
+      h1.title {
+
+        text-align : center;
+      }
+
+      div.CFe div.contents li.CFe table,
+      div.CFe div.contents li.face table,
+      div.CFe div.contents li.use table,
+      div.CFe div.contents li.cast-iron table,
+      div.section.nonCmetal div.subsection ul li table:not(.notes) {
+
+        border : solid 2px #E5B217;
+        border-collapse : collapse;
+      }
+      div.CFe div.contents li.CFe table tr th,
+      div.CFe div.contents li.face table tr th,
+      div.CFe div.contents li.use table tr th,
+      div.CFe div.contents li.cast-iron table tr th,
+      div.section.nonCmetal div.subsection ul li table tr th {
+
+        text-align : center;
+      }
+      div.CFe div.contents li.CFe table tr th,
+      div.CFe div.contents li.CFe table tr td,
+      div.CFe div.contents li.face table tr th,
+      div.CFe div.contents li.face table tr td,
+      div.CFe div.contents li.use table tr th,
+      div.CFe div.contents li.use table tr td,
+      div.CFe div.contents li.cast-iron table tr th,
+      div.CFe div.contents li.cast-iron table tr td,
+      div.section.nonCmetal div.subsection ul li table:not(.notes) tr th,
+      div.section.nonCmetal div.subsection ul li table:not(.notes) tr td {
+
+        border : solid 1px #E5B217;
+        padding-left : 0.3em;
+        padding-right : 0.3em;
+      }
+
+      div.CFe div.contents li.use table.JIS-unit.noborder {
+
+        border : solid 1px transparent;
+        margin-top : 1em;
+      }
+      div.CFe div.contents li.use table.JIS-unit.noborder tr td {
+
+        border : solid 1px transparent;
+        margin-top : 1em;
+      }
+      div.CFe div.contents li.use table.JIS-unit.noborder tr td.alignLeft {
+
+        text-align : left;
+      }
+      div.CFe div.contents li.use table.JIS-unit.noborder tr td.alignCenter {
+
+        text-align : center;
+      }
+      div.CFe div.contents li.use table.JIS-unit.noborder tr td.alignRight {
+
+        text-align : right;
+      }
+      div.CFe div.contents li.use table.JIS-unit.noborder tr th {
+
+        border : solid 1px transparent;
+        text-align : left;
+      }
+
+      div.CFe div.contents li.cast-iron table.c-state tr td table.normal-cast-iron.composition,
+      div.CFe div.contents li.cast-iron table.c-state tr td table.normal-cast-iron.composition tr td {
+
+        border : solid 1px transparent;
+      }
+      div.CFe div.contents li.cast-iron table.c-state tr td table.normal-cast-iron.composition tr td.element,
+      div.CFe div.contents li.cast-iron table.c-state tr td table.normal-cast-iron.composition tr td.colon {
+
+        padding-left : 0;
+        padding-right : 0;
+      }
+      div.section.nonCmetal div.subsection ul li table {
+
+        margin-top : 1em;
+        margin-bottom : 1em;
+      }
+      div.section.nonCmetal div.subsection ul li table tr td.sign {
+
+        vertical-align : top;
+      }
+      div.section.nonCmetal div.subsection ul li table tr td.sign span.sign {
+
+        vertical-align : top;
+      }
+      div.section.nonCmetal div.subsection ul li table tr td.metal.name.bronz {
+
+        vertical-align : top;
+      }
+      div.section.nonCmetal div.subsection ul li table tr td.metal.name {
+
+        border-right : solid 0.5em transparent;
+      }
+
+      span.strong {
+
+        font-weight : bold;
+      }
+
+      span.deg-c {
+
+        margin-left : 0.3em;
+        margin-right : 0.2em;
+      }
+      span.sim {
+
+        margin : auto 0.3em auto 0.3em;
+      }
+      span.colon {
+
+        margin-right : 0.3em;
+        margin-left : 0.1em;
+      }
+      span.percent {
+
+        margin-left : 0.3em;
+        margin-right : 0.2em;
+      }
+      span.unit {
+
+        margin-left : 0.4em;
+      }
+      span.sign.rarr {
+
+        margin-left : 0.3em;
+        margin-right : 0.4em;
+      }
+      span.comma {
+
+        margin-right : 0.4em;
+      }
+      span.br.sp {
+
+        margin-right : 0.3em;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="htmlWrap">
+      <h1 class="title">機械工学I期末試験範囲</h1>
+      <div class="CFe">
+        <h2 class="title">炭素鋼</h2>
+        <div class="contents">
+          <ul>
+            <li class="CFe heat mng">
+              <h3 class="title">炭素鋼の熱処理</h3>
+              <table>
+                <tr>
+                  <th>処理法</th>
+                  <th>説明</th>
+                  <tr>
+                <tr>
+                  <td>焼入れ(quenching)</td>
+                  <td>
+                    炭素鋼を焼入れ温度まで加熱した後，水中または油中で急冷し，かたさを増す操作のこと．
+                  </td>
+                </tr>
+                <tr>
+                  <td>焼もどし(tempering)</td>
+                  <td>
+                    焼入れするとかたくなるが，ねばり強さが減じて脆くなったり，熱によるひずみが出来たりする．これを整えるため，焼入れした鋼材を再加熱(450<span class="sim">&sim;</span>600<span class="deg-c">&#8451;</span>)し，徐冷する操作のこと．
+                  </td>
+                </tr>
+                <tr>
+                  <td>焼なまし(annealing)</td>
+                  <td>
+                    鋼材は曲げたり，たたいたりしていると次第にかたく，もろくなる(<span class="strong">加工硬化</span>)．かたくなった鋼材を焼入れ温度くらいに加熱し，炉中または灰中で徐冷し軟化させる操作のこと．
+                  </td>
+                </tr>
+                <tr>
+                  <td>焼ならし(normalizing)</td>
+                  <td>
+                    鋼材の結晶の粒を細かく，安定した組織とするために焼入れ温度弱に加熱し，空気中で放冷する操作のこと．
+                  </td>
+                </tr>
+              </table>
+            </li>
+            <li class="face hard">
+              <h3 class="title">表面硬化法</h3>
+              <table>
+                <tr>
+                  <td nowrap>高周波焼入れ法</td>
+                  <td>
+                    高周波電流によって鋼の表面のみを急激に加熱後に急冷して焼入れをする．
+                  </td>
+                </tr>
+                <tr>
+                  <td>侵炭焼入れ法</td>
+                  <td>
+                    炭素量が0.1<span class="sim">&sim;</span>0.25<span class="percent">&#37;</span>のはだ焼鋼を木炭・コークス・メタンガス・プロパンガスなどを使って表層部に炭素Cを浸み込ませて焼入れをする．
+                  </td>
+                </tr>
+                <tr>
+                  <td>窒化</td>
+                  <td>
+                    500<span class="deg-c">&#8451;</span>程度の炭素鋼にアンモニアガスを送り込むと表皮にかたい鉄の窒化物ができ，耐食性が向上する．
+                  </td>
+                </tr>
+              </table>
+            </li>
+            <li class="stnd use">
+              <h3 class="title">規格と用途例</h3>
+              <table>
+                <tr>
+                  <th colspan="2">鋼種</th>
+                  <th>記号例</th>
+                  <th>用途</th>
+                </tr>
+                <tr>
+                  <td nowrap rowspan="2">構造用</td>
+                  <td nowrap>一般構造用<br>圧延鋼材</td>
+                  <td nowrap>SS400</td>
+                  <td>建築，橋，船舶，鉄道車両そのほかの構造用に使われる．</td>
+                </tr>
+                <tr>
+                  <td nowrap>機械構造用<br>炭素鋼鋼材</td>
+                  <td>S30C</td>
+                  <td>一般構造用圧延鋼材より信頼性が高く，軸，歯車などの機械や装置などの構造用に使われる．</td>
+                </tr>
+                <tr>
+                  <td nowrap>工具用</td>
+                  <td nowrap>炭素工具鋼<br>鋼材</td>
+                  <td>SK140</td>
+                  <td>不純物の少ない高炭素鋼で，炭素量の少ないものはプレス型や刻印などに，炭素量の多いものは，刃やすり，組やすり，たがねなどに使われる．</td>
+                </tr>
+              </table>
+              <table class="JIS-unit noborder">
+                <tr>
+                  <th colspan="3">記号凡例</td>
+                </tr>
+                <tr>
+                  <td class="alignRight"><u>S</u></td>
+                  <td class="alignCenter"><u>S</u></td>
+                  <td class="alignLeft"><u>440</u></td>
+                </tr>
+                <tr>
+                  <td>鉄鋼(steel)を表す記号</td>
+                  <td>
+                    用途を表す記号<br>
+                    structure
+                  </td>
+                  <td>最低引張強さ(N/mm<sup>2</sup>)</td>
+                </tr>
+              </table>
+            </li>
+            <li class="cast-iron">
+              <h3 class="title">鋳鉄</h3>
+              <p>炭素状態により3種類に分類</p>
+              <table class="c-state">
+                <tr>
+                  <td>ねずみ鋳鉄</td>
+                  <td>
+                    Cが遊離し黒鉛状態
+                  </td>
+                </tr>
+                <tr>
+                  <td>白鋳鉄</td>
+                  <td>
+                    CとFeが化合
+                  </td>
+                </tr>
+                <tr>
+                  <td>まだら鋳鉄</td>
+                  <td>
+                    ねずみ鋳鉄と白鋳鉄が混在
+                  </td>
+                </tr>
+              </table>
+
+              <p>機械的性質によって5種類に分類</p>
+              <table class="c-state">
+                <tr>
+                  <td nowrap>普通鋳鉄</td>
+                  <td>
+                    <table class="normal-cast-iron composition">
+                      <tr>
+                        <td class="element">C</td>
+                        <td class="colon">:</td>
+                        <td class="composition">3.2<span class="sim">&sim;</span>3.8<span class="percent">&#37;</span>,<span class="br sp"><br></span></td>
+                      </tr>
+                      <tr>
+                        <td class="element">Si</td>
+                        <td class="colon">:</td>
+                        <td class="composition">1.4<span class="sim">&sim;</span>2.5<span class="percent">&#37;</span>,<span class="br sp"><br></span></td>
+                      </tr>
+                      <tr>
+                        <td class="element">Mn</td>
+                        <td class="colon">:</td>
+                        <td class="composition">0.4<span class="sim">&sim;</span>1.0<span class="percent">&#37;</span>,<span class="br sp"><br></span></td>
+                      </tr>
+                      <tr>
+                        <td class="element">P</td>
+                        <td class="colon">:</td>
+                        <td class="composition">0.1<span class="sim">&sim;</span>0.5<span class="percent">&#37;</span>,<span class="br sp"><br></span></td>
+                      </tr>
+                      <tr>
+                        <td class="element">S</td>
+                        <td class="colon">:</td>
+                        <td class="composition">0.06<span class="sim">&sim;</span>0.3<span class="percent">&#37;</span><span class="br sp"><br></span></td>
+                      </tr>
+                    </table>
+                    の組成で，強さやかたさはあまり問題にしない普通鋳物品に用いられる．
+                  </td>
+                </tr>
+                <tr>
+                  <td nowrap>高靭鋳鉄</td>
+                  <td>
+                    高級鋳鉄とも呼ばれ，鋼に比べて引張強さやかたさが劣る性質を改良したもの．原料に多量の銅クズを加え，鋳込み直前に少量のMnを加えたりして黒鉛の大きさ，形状を改善し，粘り強くし，耐摩耗性や耐熱性を向上させたもの．
+                  </td>
+                </tr>
+                <tr>
+                  <td nowrap>可鍛鋳鉄</td>
+                  <td>
+                    白鋳鉄を長時間焼なまして粘り強さを与え，鋳鉄の欠点を取り除いたもの．白鋳鉄の成分や焼なましの状態により，破面が白色の白心可鍛鋳鉄と灰色の黒心可鍛鋳鉄ができる．
+                  </td>
+                </tr>
+                <tr>
+                  <td nowrap>合金鋳鉄</td>
+                  <td>
+                    鋳鉄にSi, Mn, Ni, Crなどの元素を加えて引張強さ，かたさ，侵食，耐熱など優れた特性を持たせたもので，内燃機関のシリンダライナやピストンリングなどに広く用いられている．
+                  </td>
+                </tr>
+                <tr>
+                  <td nowrap>チル鋳鉄</td>
+                  <td>
+                    特に耐摩耗性を必要とする部分のみを硬化させた鋳物．鋳造作業の際，チル化させたい部分だけ金型を用い，他は砂型とすると，金型部分が急速に冷却(チル)され白鋳鉄化し，表面が非常にかたくなる．圧延機や粉砕機のロール，車輪などに用いられる．
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </div><!-- CFe -->
+      <div class="nonCmetal section">
+        <h2 class="title">炭素鋼以外の金属材料</h2>
+        <div class="subsection">
+          <ul>
+            <li>
+              <h3 class="title">アルミニウム合金</h3>
+              <table>
+                <tr>
+                  <td>鉄</td>
+                  <td>鉄鉱石から生成</td>
+                </tr>
+                <tr>
+                  <td>Al</td>
+                  <td>Al鉱石(ボーキサイト)から生成</td>
+                </tr>
+              </table>
+              <ul>
+                <li>鉄に次いで多く使用される金属</li>
+                <li>融解温度<span class="colon">:</span>660<span class="deg-c">&#8451;</span><span class="comma">,</span>比重<span class="colon">:</span>2.70</li>
+                <li>
+                  軽量，密度<span class="colon">:</span>2.669<span class="unit">g / cm<sup>3</sup></span><br>
+                  <span class="sign rarr">&rarr;</span>航空機，車両，建築材
+                </li>
+                <li>電気や熱の良導体<span class="sign rarr">&rarr;</span>送電線</li>
+                <li>光や熱を反射する<span class="sign rarr">&rarr;</span>各反射板</li>
+                <li>外観が美しい<span class="sign rarr">&rarr;</span>装飾用品</li>
+                <li>耐食性に優れる(アルマイト)</li>
+                <li>軽量で切削性，鋳造性，圧延性が良いので各材料に加工しやすい</li>
+                <li>純Alはやわらかく強度が劣るので他金属材料を加えてAl合金として使用する</li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="title">銅合金</h3>
+              <ul>
+                <li>融解温度<span class="colon">:</span>1084<span class="deg-c">&#8451;</span><span class="comma">,</span>比重<span class="colon">:</span>8.96</li>
+                <li>電気や熱の良導体</li>
+                <li>耐食性に優れる</li>
+                <li>光沢があり美しい</li>
+                <li>やわらかさや光沢の面から工芸品や家庭用品として昔から使われている</li>
+                <li>電線などの電気材料として多く用いられ，板や管として熱の伝導材として利用される</li>
+                <li>強さかたさが十分ではないため構造材には適さず，銅合金として使われる</li>
+              </ul>
+              <table class="notes">
+                <tr class="CuZn">
+                  <td class="sign" rowspan="2"><sup><span class="sign lowast">&lowast;</span></sup></td>
+                  <td nowrap class="metal name CuZn">黄銅</td>
+                  <td>CuZn系の合金で真ちゅうと呼ばれている．</td>
+                </tr>
+                <tr class="bronz">
+                  <td nowrap class="metal name bronz">青銅(砲金)</td>
+                  <td>
+                    CuSn系の合金で，ブロンズと呼ばれている．<br>
+                    少量のPを含むリン青銅は強度が大きい
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div><!-- subsection -->
+      </div><!-- section -->
+    </div>  <!-- htmlWrap -->
+
+    <script>
+
+      document.oncontextmenu = function () {
+
+        let command = window.prompt ( "Enter the command" );
+        command = command.toLowerCase ();
+        switch ( command ) {
+          case '':
+          case 'context':
+          case 'contextmenu':
+          case 'menu':
+            return true;
+
+          case 'display:block':
+          case 'body.display:block':
+            toggleDisp ( "htmlWrap", true );
+            break;
+
+          case 'display:none':
+          case 'body.display:none':
+            toggleDisp ( "htmlWrap", false );
+            break;
+
+          case 'fuck':
+            alert ( "You fucking asshole !!" );
+            break;
+
+          default:
+            alert ( "'" + command + "' is not command" );
+        }
+        return false;
+      }
+
+      function toggleDisp ( elem, state ) {
+
+        let element = [];
+        switch ( elem ) {
+          case 'htmlWrap':
+            element [ 0 ] = document.querySelector ( ".htmlWrap" );
+            break;
+        }
+        if ( state ) {
+
+          for ( let i = 0; i < element.length; i++ ) {
+
+            element [ i ].style.display = "block";
+            document.querySelector ( ".htmlWrap" ).style.display = "block";
+          }
+
+        } else {
+
+          for ( let i = 0; i < element.length; i++ ) {
+
+            console.log ( element );
+            element [ i ].style.display = "none";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
